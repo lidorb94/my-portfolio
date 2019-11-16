@@ -1,22 +1,82 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+
+.Container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
 }
+
+.Content {
+  padding: 10px;
+}
+
+h1, h4 {
+  margin: 0;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  font-weight: 400;
+  color: #c22700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header {
+display: flex;
+border-bottom: 1px solid lightgray;
+}
+
+.Icons {
+  padding: 0px 20px 00px 40px;
+  /* border: 1px solid black; */
+}
+
+.Facebook {
+  width: 32px;
+  height: 32px;
+  background: url(./icons/facebook-logo-grey.png) no-repeat;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.Facebook:hover {
+  background: url(./icons/facebook-logo-blue.png) no-repeat;
+} 
+
+.Github {
+  width: 32px;
+  height: 32px;
+  background: url(./icons/github-logo-grey.png) no-repeat;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.Github:hover {
+  background: url(./icons/github-logo-black.png) no-repeat;
+} 
+
+.Linkedin {
+  width: 32px;
+  height: 32px;
+  background: url(./icons/linkedin-logo-grey.png) no-repeat;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.Linkedin:hover {
+  background: url(./icons/linkedin-logo-blue.png) no-repeat;
+} 
